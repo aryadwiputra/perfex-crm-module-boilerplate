@@ -1,0 +1,37 @@
+{
+    "name": "arya/perfex-crm-module-boilerplate",
+    "description": "A boilerplate for creating Perfex CRM modules",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Arya\\PerfexCrmModuleBoilerplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arya Dwi Putra",
+            "email": "aryadptr.developer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "composer-plugin-api": "^2.0"
+    },
+    "scripts": {
+        "post-package-install": [
+            "YourVendor\\PerfexCRMModuleBoilerplate\\ModuleInstaller::postPackageInstall"
+        ]
+    },
+    "extra": {
+        "installer-paths": {
+            "modules/{$name}/": ["type:perfex-crm-module"]
+        }
+    },
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "/home/arya/Documents/Composer Proyek/perfex-crm-module-boilerplate"
+        }
+    }
+}
