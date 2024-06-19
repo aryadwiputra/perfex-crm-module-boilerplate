@@ -20,18 +20,12 @@
     },
     "scripts": {
         "post-package-install": [
-            "YourVendor\\PerfexCRMModuleBoilerplate\\ModuleInstaller::postPackageInstall"
+            "AryaDwiPutra\\PerfexCRMModuleBoilerplate\\ModuleInstaller::postPackageInstall"
         ]
     },
     "extra": {
         "installer-paths": {
             "modules/{$name}/": ["type:perfex-crm-module"]
-        }
-    },
-    "repositories": {
-        "local": {
-            "type": "path",
-            "url": "/home/arya/Documents/Composer Proyek/perfex-crm-module-boilerplate"
         }
     }
 }
