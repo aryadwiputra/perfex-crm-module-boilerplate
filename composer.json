@@ -1,11 +1,11 @@
 {
-    "name": "arya/perfex-crm-module-boilerplate",
+    "name": "aryadwiputra/perfex-crm-module-boilerplate",
     "description": "A boilerplate for creating Perfex CRM modules",
     "type": "library",
     "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Arya\\PerfexCrmModuleBoilerplate\\": "src/"
+            "AryaDwiPutra\\PerfexCrmModuleBoilerplate\\": "src/"
         }
     },
     "authors": [
